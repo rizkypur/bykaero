@@ -31,7 +31,7 @@
   
   .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(https://images.wallpapersden.com/image/download/blue-square-abstract-design_65978_1920x1080.jpg);
+    background-image: url(../img/blue-square.jpg);
     background-size: cover;
     color: white;
     text-align: center;
@@ -75,7 +75,7 @@
   .header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: 5f5d60;
+    color: #5f5d60;
     display: block;
     float: left;
     transition: all 0.5s;
