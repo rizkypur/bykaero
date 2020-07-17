@@ -1,0 +1,206 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.wallpapersden.com/image/download/blue-square-abstract-design_65978_1920x1080.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  .TitleBox1{
+      background-color: #5f5d60;
+      width: 40%;
+      margin: 0 auto;
+  }
+  .TitleBox2{
+    background-color: #5f5d60;
+    width: 60%;
+    margin: 0 auto;
+}
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(245, 244, 230, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  .header-left p{
+    color: 5f5d60;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: 5f5d60;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: #5f5d60;
+    color: white;
+  }
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: #5f5d60;
+  }
+  hr.new5 {
+    border: 5px solid green;
+    border-radius: 5px;
+    width: 10%;
+  }
+  .heading h1 {
+    font-weight: bold;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+  
+  .lesson-icon {
+    position: relative;
+    opacity: 0.7;
+    color: black;
+  }
+  .lesson-icon:hover{
+    position: relative;
+    opacity: 1;
+    color: white;
+    font-weight: bold;
+  }
+  .lesson-icon h3 {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .contact-form{
+    padding-top:20px;
+  }
+
+  input, textarea{
+    width: 100%;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:15px;
+    border: 2px solid #dee7ec;
+  }
+  
+  .message {
+    display: block;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    width: 100%;
+    color: white;
+    border: none;
+    text-align: center;
+  }
+  .message:hover{
+    box-shadow:0 7px #a6a6a6;
+    background-color: #ddd;
+    color: black;
+  }
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .footer{
+    background-color:#2f5167;
+    color:#fff;
+    height:200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .footer-title{
+    margin-top: 10px;
+    font-size:32px;
+    float:left;
+  }
+  /* Ketik code Anda dibawah */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  
