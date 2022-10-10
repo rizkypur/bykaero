@@ -1,5 +1,5 @@
 # bykaero
 
-Kekurangan:
-- Responsiveness belum berjalan 
-- Ada beberapa struktur yang tumpang tidih
+Problem:
+- Responsiveness have not working
+- Have a messy structure
